@@ -63,7 +63,7 @@ export function Card({ card, deleteCard, updateCard }: Props) {
         <textarea
           className="
         h-[90%]
-        w-full resize-none border-none rounded bg-transparent text-white focus:outline-none
+        w-full resize-none border-none rounded bg-black text-white focus:outline-none
         "
           value={card.content}
           autoFocus
